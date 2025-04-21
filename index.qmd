@@ -16,8 +16,8 @@ format:
 ---
 
 :::{.cr-section layout="sidebar-left"}
-
-
+:::{#cr-titulo}
+:::
 :::{#cr-sidebar}
 :::
 
