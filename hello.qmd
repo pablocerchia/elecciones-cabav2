@@ -1,0 +1,324 @@
+---
+title: "Elecciones Legislativas CABA 2025"
+format:
+  closeread-html:
+    remove-header-space: true
+    cr-style:
+      section-background-color: white
+      narrative-background-color-sidebar: "#9ACBD0"
+      narrative-background-color-overlay: "rgba(0,0,0,0.6)"
+      narrative-text-color-overlay: "white"
+      grid-template-columns: "2fr 4fr"
+      narrative-font-size: 24pt
+      narrative-font-size-sidebar: 36pt
+      narrative-font-size-overlay: 36pt
+      narrative-overlay-max-width: "800px"
+---
+
+:::{.cr-section layout="sidebar-left"}
+
+
+:::{#cr-sidebar}
+:::
+
+# **ELECCIONES LEGISLATIVAS<br> CABA 2025<br><br><br><br><br><br><br><br>GUÍA ELECTORAL por Pablo Cerchia** {.display-2}
+
+:::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-legislatura}
+
+![](snapshot-1744755183447.png){width=100%}
+:::
+
+:::{#cr-sidebar}
+:::
+
+@cr-legislatura
+
+# **¿Qué se vota?** {.display-2}
+
+
+<p style="font-size: 24pt; margin-top: 0rem;">La Legislatura porteña está compuesta de 60 bancas.</p>
+
+:::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-renovacion}
+
+![](renovacion30bancasbordo.png){width=100%}
+:::
+
+:::{#cr-sidebar}
+:::
+
+@cr-renovacion
+
+<p style="font-size: 24pt; margin-top: 0rem;">En las elecciones legislativas de CABA 2025 <br> se <span style="color: #8d4961; font-weight: bold;">renuevan</span> 30 legisladores.</p>
+
+:::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-4anos}
+
+![](solo30bancas.png){width=100%}
+:::
+
+:::{#cr-sidebar}
+:::
+
+@cr-4anos
+
+<p style="font-size: 24pt; margin-top: 0rem;">El mandato de estos 30 legisladores durará 4 años. <br> Ellos se encargaran de sancionar leyes sobre los asuntos <br>como  educación, salud, ambiente, obras públicas,<br> diseño urbano y seguridad de la Ciudad.</p>
+
+
+:::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-cuandovota}
+![](mayo2025_calendario.png){width=60%}
+:::
+
+:::{#cr-sidebar}
+:::
+
+[@cr-cuandovota]{pan-to="-45%,-68%" scale-by="7.4"}
+
+<p style="font-size: 24pt; margin-top: 0rem;">
+  <span style="font-size: 36pt;">¿Cuándo se vota?</span><br><br>
+  El domingo 18 de mayo de 2025.
+</p>
+
+:::
+
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-dondevota}
+![](votando_caba.jpeg){width=60%}
+:::
+
+:::{#cr-sidebar}
+:::
+
+@cr-dondevota
+
+# **¿Dónde se vota?** {.display-2}
+<p style="font-size: 24pt; margin-top: 0rem;">Consultá en el sitio del Tribunal Electoral de CABA <br> haciendo click <a href="https://electoralcaba.gob.ar/">aquí</a>. </p> 
+
+:::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-quienvota}
+![](dnivotojoven.png){width=60%}
+:::
+
+:::{#cr-sidebar}
+:::
+
+@cr-quienvota
+
+# **¿Quién puede votar?** {.display-2}
+<p style="font-size: 20pt; margin-top: 0rem;">Podés votar si cumplís con los siguientes requisitos:<br><br>◇ Sos argentino/a o extranjero/a con residencia permanente.<br>◇ Sos mayor de 16 años (y haber renovado el DNI a los 14 años).<br>◇ Figuras en el padrón electoral.<br>◇ Tenés el DNI que figura en el padrón electoral para mostrarlo al momento de votar.</p>
+
+:::
+
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-comosevota}
+![](boletabue.jpg){width=100%}
+:::
+
+:::{#cr-sidebar}
+:::
+
+@cr-comosevota
+
+
+<p style="font-size: 24pt; margin-top: 0rem;">
+  <span style="font-size: 36pt;">¿Cómo se vota?</span><br><br>
+  Con Boleta única electrónica.<br><br>Un dispositivo con pantalla táctil te va a mostrar las listasoficializadas para que selecciones la de tu preferencia y se imprima tu boleta única.</p>
+
+:::
+
+:::{.cr-section}
+
+:::{#cr-dhondt}
+<iframe width="300%" height="600" src="https://www.youtube.com/embed/ykgvUlTRSuk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+
+:::{#cr-sidebar}
+:::
+
+[@cr-dhondt]{pan-to="-85%,-10%" scale-by="1.2"}
+
+<p style="font-size: 24pt; margin-top: 0rem;">
+  <span style="font-size: 36pt;">¿Cómo se reparten las bancas?</span><br><br>
+  Mediante el método de D'Hondt. Dale play al video para entender cómo funciona.
+</p>
+:::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-dhondtsimulador}
+![](simuladorbancas.gif){width=100%}
+:::
+
+:::{#cr-sidebar}
+:::
+
+[@cr-dhondtsimulador]{scale-by="1.5"}
+
+<p style="font-size: 24pt; margin-top: 0rem;">
+  <span style="font-size: 36pt;">Simulador de reparto de bancas</span><br><br>
+  Si querés simular el reparto de bancas podés usar el siguiente simulador dentro de Data CP.
+</p>
+:::
+
+:::{.cr-section layout="overlay-center"}
+
+:::{#cr-panorama}
+![](Legislatura_de_la_Ciudad_de_Buenos_Aires_-_Recinto_de_Sesiones_(4).jpg){.scale-to-fill}
+:::
+
+¿Cómo está el panorama de cara a las elecciones? @cr-panorama
+
+:::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-cambios2023}
+![](fractura_jxc.png){width=100%}
+:::
+
+:::{#cr-sidebar}
+:::
+
+**Principales cambios respecto a 2023**  @cr-cambios2023
+
+La ruptura de la alianza Juntos por el Cambio sumado a la eliminación de las PASO son los principales cambios respecto a 2023. @cr-cambios2023
+
+:::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-nuevosjxc2025}
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Silvia%20Lospennato.png" style="margin-left: 20px; width: 100%;">
+  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+</div>
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Horacio%20Rodríguez%20Larreta.png" style="margin-left: 20px;width: 100%;">
+  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+</div>
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Lucille%20Levy.png" style="margin-left: 20px;width: 100%;">
+  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+</div>
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Paula%20Oliveto%20Lago.png" style="margin-left: 20px;width: 100%;">
+  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+</div>
+:::
+
+:::{#cr-sidebar}
+:::
+
+Esta separación supuso que ahora en 2025 surjan 4 alianzas <br> que antes unía ese espacio: @cr-nuevosjxc2025
+
+
+Buenos Aires Primero (PRO) <br> Volvamos Juntos (Larreta) <br> Evolución (UCR) <br> Coalición Cívica (CC-ARI) @cr-nuevosjxc2025
+
+El otro gran cambio es que al no haber PASO, ahora en las elecciones Generales hay... @cr-nuevosjxc2025
+
+:::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-nuevoscandidatos1}
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Silvia%20Lospennato.png" style="margin-left: 20px; width: 100%;">
+  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+  <img src="17candidatos/Leandro%20Santoro.png" style="margin-left: 20px; margin-top: 20px; width: 100%;">
+  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+</div>
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Horacio%20Rodríguez%20Larreta.png" style="margin-left: 20px;width: 100%;">
+  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+  <img src="17candidatos/Manuel%20Adorni.png" style="margin-left: 20px;margin-top: 20px; width: 100%;">
+  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+</div>
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Lucille%20Levy.png" style="margin-left: 20px;width: 100%;">
+  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+  <img src="17candidatos/Ramiro%20Marra%C2%A0.png" style="margin-left: 20px;margin-top: 20px; width: 100%;">
+  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+</div>
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Paula%20Oliveto%20Lago.png" style="margin-left: 20px;width: 100%;">
+  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+  <img src="17candidatos/Vanina%20Biasi.png" style="margin-left: 20px;margin-top: 20px; width: 100%;">
+  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+</div>
+:::
+
+:::{#cr-sidebar}
+:::
+
+más... @cr-nuevoscandidatos1
+
+:::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-nuevoscandidatos2}
+![](17candidatos/Alejandro%20Kim.png){width=100%}
+![](17candidatos/Yamil%20Santoro.png){width=100%}
+![](17candidatos/Mila%20Zurbriggen.png){width=100%}
+![](17candidatos/Federico%20Winokur.png){width=100%}
+:::
+
+:::{#cr-sidebar}
+:::
+
+más... @cr-nuevoscandidatos2
+
+:::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-nuevoscandidatos3}
+![](17candidatos/Juan%20Manuel%20Abal%20Medina.png){width=100%}
+![](17candidatos/C%C3%A9sar%20Biondini.png){width=100%}
+![](17candidatos/Marcelo%20Peretta.png){width=100%}
+![](17candidatos/Mar%C3%ADa%20Eva%20Koutsovitis.png){width=100%}
+:::
+
+:::{#cr-sidebar}
+:::
+
+más... @cr-nuevoscandidatos3
+
+:::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-nuevoscandidatos4}
+![](17candidatos/Juan%20Manuel%20Abal%20Medina.png){width=100%}
+![](17candidatos/C%C3%A9sar%20Biondini.png){width=100%}
+![](17candidatos/Marcelo%20Peretta.png){width=100%}
+![](17candidatos/Mar%C3%ADa%20Eva%20Koutsovitis.png){width=100%}
+:::
+
+:::{#cr-sidebar}
+:::
+
+y más candidatos. @cr-nuevoscandidatos4
+
+:::
