@@ -13,10 +13,9 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
     include-in-header:
       - text: |
-          <link rel="stylesheet" href="_extensions/qmd-lab/closeread/closeread.css">
+          <link rel="stylesheet" href="/_extensions/qmd-lab/closeread/closeread.css">
     resources:
       - _extensions/qmd-lab/closeread/closeread.css
       - _extensions/qmd-lab/closeread/closeread.js
