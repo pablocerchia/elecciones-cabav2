@@ -8,20 +8,31 @@ format:
       narrative-background-color-sidebar: "#9ACBD0"
       narrative-background-color-overlay: "rgba(0,0,0,0.6)"
       narrative-text-color-overlay: "white"
-      grid-template-columns: "2fr 4fr"
+      narrative-sidebar-width: 2fr
       narrative-font-size: 24pt
       narrative-font-size-sidebar: 36pt
       narrative-font-size-overlay: 36pt
       narrative-overlay-max-width: "800px"
 ---
 
+```{r packages}
+#| echo: false
+#| message: false
+library(ggplot2)
+library(dplyr)
+```
+
 :::{.cr-section layout="sidebar-left"}
+
 :::{#cr-titulo}
+![](330px-BA_city_legislat_logo.png){width=100%}
 :::
+
 :::{#cr-sidebar}
 :::
 
-# **ELECCIONES LEGISLATIVAS<br> CABA 2025<br><br><br><br><br><br><br><br>GUÍA ELECTORAL por Pablo Cerchia** {.display-2}
+
+<span style="font-size: 48pt;">ELECCIONES LEGISLATIVAS<br>CABA 2025</span><br><br> Guía electoral por Pablo Cerchia @cr-titulo
 
 :::
 
@@ -35,12 +46,9 @@ format:
 :::{#cr-sidebar}
 :::
 
-@cr-legislatura
 
-# **¿Qué se vota?** {.display-2}
-
-
-<p style="font-size: 24pt; margin-top: 0rem;">La Legislatura porteña está compuesta de 60 bancas.</p>
+<!-- # **¿Qué se vota?** {.display-2} -->
+<span style="font-size: 48pt;">¿Qué se vota?</span> <br><br> La Legislatura porteña está compuesta de 60 bancas. @cr-legislatura
 
 :::
 
@@ -54,9 +62,8 @@ format:
 :::{#cr-sidebar}
 :::
 
-@cr-renovacion
 
-<p style="font-size: 24pt; margin-top: 0rem;">En las elecciones legislativas de CABA 2025 <br> se <span style="color: #8d4961; font-weight: bold;">renuevan</span> 30 legisladores.</p>
+En las elecciones legislativas de CABA 2025 se <span style="color: #8d4961;">renuevan</span>  30 legisladores. @cr-renovacion
 
 :::
 
@@ -70,9 +77,7 @@ format:
 :::{#cr-sidebar}
 :::
 
-@cr-4anos
-
-<p style="font-size: 24pt; margin-top: 0rem;">El mandato de estos 30 legisladores durará 4 años. <br> Ellos se encargaran de sancionar leyes sobre los asuntos <br>como  educación, salud, ambiente, obras públicas,<br> diseño urbano y seguridad de la Ciudad.</p>
+El mandato de estos 30 legisladores durará 4 años.<br><br> Ellos se encargaran de sancionar leyes sobre los asuntos como  educación, salud, ambiente, obras públicas, diseño urbano y seguridad de la Ciudad. @cr-4anos
 
 
 :::
@@ -86,12 +91,9 @@ format:
 :::{#cr-sidebar}
 :::
 
-[@cr-cuandovota]{pan-to="-45%,-68%" scale-by="7.4"}
 
-<p style="font-size: 24pt; margin-top: 0rem;">
-  <span style="font-size: 36pt;">¿Cuándo se vota?</span><br><br>
-  El domingo 18 de mayo de 2025.
-</p>
+
+<span style="font-size: 48pt;">¿Cuándo se vota?</span><br><br> El domingo 18 de mayo de 2025.[@cr-cuandovota]{pan-to="-45%,-68%" scale-by="8"}
 
 :::
 
@@ -99,32 +101,29 @@ format:
 :::{.cr-section layout="sidebar-left"}
 
 :::{#cr-dondevota}
-![](votando_caba.jpeg){width=60%}
+![](votando_caba (1) (1).jpeg){width=100%}
 :::
 
 :::{#cr-sidebar}
 :::
 
-@cr-dondevota
 
-# **¿Dónde se vota?** {.display-2}
-<p style="font-size: 24pt; margin-top: 0rem;">Consultá en el sitio del Tribunal Electoral de CABA <br> haciendo click <a href="https://electoralcaba.gob.ar/">aquí</a>. </p> 
+<span style="font-size: 48pt;">¿Dónde se vota?</span><br><br>Consultá en el sitio del Tribunal Electoral de CABA haciendo click <a href="https://electoralcaba.gob.ar/">aquí</a>. @cr-dondevota
 
 :::
 
 :::{.cr-section layout="sidebar-left"}
 
 :::{#cr-quienvota}
-![](dnivotojoven.png){width=60%}
+![](dnivotojoven (1).png){width=100%}
 :::
 
 :::{#cr-sidebar}
 :::
 
-@cr-quienvota
+<span style="font-size: 42pt;">¿Quién puede votar?</span><br><br>Podés votar si cumplís con los siguientes requisitos: @cr-quienvota
 
-# **¿Quién puede votar?** {.display-2}
-<p style="font-size: 20pt; margin-top: 0rem;">Podés votar si cumplís con los siguientes requisitos:<br><br>◇ Sos argentino/a o extranjero/a con residencia permanente.<br>◇ Sos mayor de 16 años (y haber renovado el DNI a los 14 años).<br>◇ Figuras en el padrón electoral.<br>◇ Tenés el DNI que figura en el padrón electoral para mostrarlo al momento de votar.</p>
+◇ Sos argentino/a o extranjero/a con residencia permanente.<br>◇ Sos mayor de 16 años (y haber renovado el DNI a los 14 años).<br>◇ Figuras en el padrón electoral.<br>◇ Tenés el DNI que figura en el padrón electoral para mostrarlo al momento de votar. @cr-quienvota
 
 :::
 
@@ -138,30 +137,24 @@ format:
 :::{#cr-sidebar}
 :::
 
-@cr-comosevota
+<span style="font-size: 48pt;">¿Cómo se vota?</span><br><br>Con Boleta única electrónica. @cr-comosevota
 
-
-<p style="font-size: 24pt; margin-top: 0rem;">
-  <span style="font-size: 36pt;">¿Cómo se vota?</span><br><br>
-  Con Boleta única electrónica.<br><br>Un dispositivo con pantalla táctil te va a mostrar las listasoficializadas para que selecciones la de tu preferencia y se imprima tu boleta única.</p>
+Un dispositivo con pantalla táctil te va a mostrar las listas oficializadas para que selecciones la de tu preferencia y se imprima tu boleta única. @cr-comosevota
 
 :::
 
 :::{.cr-section}
 
 :::{#cr-dhondt}
-<iframe width="300%" height="600" src="https://www.youtube.com/embed/ykgvUlTRSuk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="180%" height="300" src="https://www.youtube.com/embed/ykgvUlTRSuk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
 :::{#cr-sidebar}
 :::
 
-[@cr-dhondt]{pan-to="-85%,-10%" scale-by="1.2"}
 
-<p style="font-size: 24pt; margin-top: 0rem;">
-  <span style="font-size: 36pt;">¿Cómo se reparten las bancas?</span><br><br>
-  Mediante el método de D'Hondt. Dale play al video para entender cómo funciona.
-</p>
+<span style="font-size: 48pt;">¿Cómo se reparten las bancas?</span><br><br>Mediante la fórmula D'Hondt. Dale play al video para entender cómo funciona. [@cr-dhondt]{pan-to="-30%,-10%" scale-by="1"}
+
 :::
 
 :::{.cr-section layout="sidebar-left"}
@@ -173,12 +166,8 @@ format:
 :::{#cr-sidebar}
 :::
 
-[@cr-dhondtsimulador]{scale-by="1.5"}
+<span style="font-size: 48pt;">Simulador de reparto de bancas</span><br><br>Si querés simular el reparto de bancas podés usar el siguiente simulador dentro de Data CP. @cr-dhondtsimulador
 
-<p style="font-size: 24pt; margin-top: 0rem;">
-  <span style="font-size: 36pt;">Simulador de reparto de bancas</span><br><br>
-  Si querés simular el reparto de bancas podés usar el siguiente simulador dentro de Data CP.
-</p>
 :::
 
 :::{.cr-section layout="overlay-center"}
@@ -193,16 +182,514 @@ format:
 
 :::{.cr-section layout="sidebar-left"}
 
-:::{#cr-cambios2023}
-![](fractura_jxc.png){width=100%}
+:::{#cr-distribucion_bancas_actual}
+![](legislatura_composicion_actual (2).png){width=100%}
 :::
 
 :::{#cr-sidebar}
 :::
 
-**Principales cambios respecto a 2023**  @cr-cambios2023
+<span style="font-size: 40pt;">¿Cómo está compuesta actualmente la Legislatura?</span>@cr-distribucion_bancas_actual
 
-La ruptura de la alianza Juntos por el Cambio sumado a la eliminación de las PASO son los principales cambios respecto a 2023. @cr-cambios2023
+:::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-distribucion_bancas_actual_2025}
+```{r distribucion_bancas_actual_2025}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig.width: 12
+#| fig.height: 8
+
+# Crear el dataframe con los datos y ordenarlo por bancas
+datos <- data.frame(
+  partido = factor(c(
+    "Unión por la Patria",
+    "Vamos por más",
+    "UCR / Evolución",
+    "La Libertad avanza",
+    "Otros",
+    "Confianza Pública",
+    "Movimiento de Integración y Desarrollo",
+    "Izquierda Socialista-Frente de Izquierda-Unidad",
+    "Frente de Izquierda de los Trabajadores / PO",
+    "Compromiso Liberal Republicano",
+    "PTS Frente de Izq-Unidad",
+    "Partido Socialista",
+    "Republicanos Unidos"
+  )),
+  bancas = c(18, 12, 8, 8, 3, 3, 2, 1, 1, 1, 1, 1, 1)
+)
+
+# Ordenar el dataframe por bancas
+datos <- datos[order(-datos$bancas), ]
+
+# Reordenar los niveles del factor partido según el orden de bancas
+datos$partido <- factor(datos$partido, levels = datos$partido)
+
+# Definir los colores específicos para cada partido en el mismo orden
+colores <- c(
+  "#01b5f0",  # Unión por la Patria
+  "#fcd201",  # Vamos por más
+  "#ff0000",  # UCR / Evolución
+  "#9e52d0",  # La Libertad avanza
+  "#8f8f8f",  # Otros
+  "#fa6502",  # Confianza Pública
+  "#f2b90f",  # Movimiento de Integración y Desarrollo
+  "#09aa64",  # Izquierda Socialista
+  "#de2c35",  # Frente de Izquierda
+  "#e58ade",  # Compromiso Liberal
+  "#808080",  # PTS
+  "#000000",  # Partido Socialista
+  "#7937d4"   # Republicanos Unidos
+)
+
+# Crear el gráfico
+ggplot(datos, aes(x = partido, y = bancas, fill = partido)) +
+  geom_bar(stat = "identity", width = 0.7) +
+  geom_text(aes(label = bancas), vjust = -0.5, size = 4) +
+  scale_fill_manual(values = colores) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
+    axis.text.y = element_blank(),
+    axis.title.y = element_text(size = 14),
+    plot.title = element_text(size = 16, face = "bold"),
+    panel.grid = element_blank(),
+    panel.background = element_rect(fill = "white", color = NA),
+    plot.background = element_rect(fill = "white", color = NA),
+    legend.position = "none",
+    plot.margin = margin(30, 20, 50, 20),
+    plot.caption = element_text(size = 12, hjust = 0)  # Ajustamos el tamaño y alineación de la nota
+  ) +
+  labs(
+    x = "",
+    y = "Bancas",
+    title = "",
+    caption = "El Bloque 'Otros' agrupa a legisladores como Ramiro Marra, Eugenio Casielles y Jorge Reta,\nlos cuales no tienen asignado ningún bloque actualmente según reporta la Legislatura."
+  )
+```
+:::
+
+:::{#cr-sidebar}
+:::
+
+La mayoría de los legisladores son del PRO y aliados y la principal oposición es Unión por la Patria <br><br> @cr-distribucion_bancas_actual_2025
+
+::::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-distribucion_bancas_actual_2025v2}
+```{r distribucion_bancas_actual_2025v2}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig.width: 12
+#| fig.height: 8
+
+# Crear el dataframe con los datos y ordenarlo por bancas
+datos <- data.frame(
+  partido = factor(c(
+    "Unión por la Patria",
+    "Vamos por más",
+    "La Libertad avanza",
+    "UCR / Evolución",
+    "Otros",
+    "Izquierda Socialista-Frente de Izquierda-Unidad",
+    "Confianza Pública",
+    "Frente de Izquierda de los Trabajadores / PO",
+    "Partido Socialista",
+    "Republicanos Unidos"
+  )),
+  bancas = c(8, 6, 4, 3, 2, 1, 1, 1, 1, 1)
+)
+
+# Ordenar el dataframe por bancas
+datos <- datos[order(-datos$bancas), ]
+
+# Reordenar los niveles del factor partido según el orden de bancas
+datos$partido <- factor(datos$partido, levels = datos$partido)
+
+# Definir los colores específicos para cada partido en el mismo orden que el gráfico anterior
+colores <- c(
+  "#01b5f0",  # Unión por la Patria
+  "#fcd201",  # Vamos por más
+  "#9e52d0",  # La Libertad avanza
+  "#ff0000",  # UCR / Evolución
+  "#8f8f8f",  # Otros
+  "#09aa64",  # Izquierda Socialista
+  "#fa6502",  # Confianza Pública
+  "#de2c35",  # Frente de Izquierda
+  "#000000",  # Partido Socialista
+  "#7937d4"   # Republicanos Unidos
+)
+
+# Crear el gráfico
+ggplot(datos, aes(x = partido, y = bancas, fill = partido)) +
+  geom_bar(stat = "identity", width = 0.7) +
+  geom_text(aes(label = bancas), vjust = -0.5, size = 4) +
+  scale_fill_manual(values = colores) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
+    axis.text.y = element_blank(),
+    axis.title.y = element_blank(),
+    plot.title = element_text(size = 16, face = "bold"),
+    panel.grid = element_blank(),
+    panel.background = element_rect(fill = "white", color = NA),
+    plot.background = element_rect(fill = "white", color = NA),
+    legend.position = "none",
+    plot.margin = margin(30, 20, 50, 20)
+  ) +
+  labs(
+    x = "",
+    y = "",
+    title = ""
+  )
+```
+:::
+
+:::{#cr-sidebar}
+:::
+
+<span style="font-size: 40pt;">¿Cuántas bancas renueva cada bloque?</span> @cr-distribucion_bancas_actual_2025v2
+
+::::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-distribucion_bancas_actual_2025v2_uxp}
+```{r distribucion_bancas_actual_2025v2_uxp}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig.width: 12
+#| fig.height: 8
+
+# Crear el dataframe con los datos y ordenarlo por bancas
+datos <- data.frame(
+  partido = factor(c(
+    "Unión por la Patria",
+    "Vamos por más",
+    "La Libertad avanza",
+    "UCR / Evolución",
+    "Otros",
+    "Izquierda Socialista-Frente de Izquierda-Unidad",
+    "Confianza Pública",
+    "Frente de Izquierda de los Trabajadores / PO",
+    "Partido Socialista",
+    "Republicanos Unidos"
+  )),
+  bancas = c(8, 6, 4, 3, 2, 1, 1, 1, 1, 1)
+)
+
+# Ordenar el dataframe por bancas
+datos <- datos[order(-datos$bancas), ]
+
+# Reordenar los niveles del factor partido según el orden de bancas
+datos$partido <- factor(datos$partido, levels = datos$partido)
+
+# Definir los colores específicos para cada partido en el mismo orden que el gráfico anterior
+colores <- c(
+  "#01b5f0",  # Unión por la Patria
+  "#8f8f8f",  # Vamos por más
+  "#8f8f8f",  # La Libertad avanza
+  "#8f8f8f",  # UCR / Evolución
+  "#8f8f8f",  # Otros
+  "#8f8f8f",  # Izquierda Socialista
+  "#8f8f8f",  # Confianza Pública
+  "#8f8f8f",  # Frente de Izquierda
+  "#8f8f8f",  # Partido Socialista
+  "#8f8f8f"   # Republicanos Unidos
+)
+
+# Crear el gráfico
+ggplot(datos, aes(x = partido, y = bancas, fill = partido)) +
+  geom_bar(stat = "identity", width = 0.7) +
+  geom_text(aes(label = bancas), vjust = -0.5, size = 4) +
+  scale_fill_manual(values = colores) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
+    axis.text.y = element_blank(),
+    axis.title.y = element_blank(),
+    plot.title = element_text(size = 16, face = "bold"),
+    panel.grid = element_blank(),
+    panel.background = element_rect(fill = "white", color = NA),
+    plot.background = element_rect(fill = "white", color = NA),
+    legend.position = "none",
+    plot.margin = margin(30, 20, 50, 20)
+  ) +
+  labs(
+    x = "",
+    y = "",
+    title = ""
+  )
+```
+:::
+
+:::{#cr-sidebar}
+:::
+
+Unión por la Patria es el bloque que renueva más bancas poniendo 8 de sus 18 bancas actuales en juego. @cr-distribucion_bancas_actual_2025v2_uxp
+
+::::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-distribucion_bancas_actual_2025v2_pro}
+```{r distribucion_bancas_actual_2025v2_pro}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig.width: 12
+#| fig.height: 8
+
+# Crear el dataframe con los datos y ordenarlo por bancas
+datos <- data.frame(
+  partido = factor(c(
+    "Unión por la Patria",
+    "Vamos por más",
+    "La Libertad avanza",
+    "UCR / Evolución",
+    "Otros",
+    "Izquierda Socialista-Frente de Izquierda-Unidad",
+    "Confianza Pública",
+    "Frente de Izquierda de los Trabajadores / PO",
+    "Partido Socialista",
+    "Republicanos Unidos"
+  )),
+  bancas = c(8, 6, 4, 3, 2, 1, 1, 1, 1, 1)
+)
+
+# Ordenar el dataframe por bancas
+datos <- datos[order(-datos$bancas), ]
+
+# Reordenar los niveles del factor partido según el orden de bancas
+datos$partido <- factor(datos$partido, levels = datos$partido)
+
+# Definir los colores específicos para cada partido en el mismo orden que el gráfico anterior
+colores <- c(
+  "#8f8f8f",  # Unión por la Patria
+  "#fcd201",  # Vamos por más
+  "#8f8f8f",  # La Libertad avanza
+  "#8f8f8f",  # UCR / Evolución
+  "#8f8f8f",  # Otros
+  "#8f8f8f",  # Izquierda Socialista
+  "#8f8f8f",  # Confianza Pública
+  "#8f8f8f",  # Frente de Izquierda
+  "#8f8f8f",  # Partido Socialista
+  "#8f8f8f"   # Republicanos Unidos
+)
+
+# Crear el gráfico
+ggplot(datos, aes(x = partido, y = bancas, fill = partido)) +
+  geom_bar(stat = "identity", width = 0.7) +
+  geom_text(aes(label = bancas), vjust = -0.5, size = 4) +
+  scale_fill_manual(values = colores) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
+    axis.text.y = element_blank(),
+    axis.title.y = element_blank(),
+    plot.title = element_text(size = 16, face = "bold"),
+    panel.grid = element_blank(),
+    panel.background = element_rect(fill = "white", color = NA),
+    plot.background = element_rect(fill = "white", color = NA),
+    legend.position = "none",
+    plot.margin = margin(30, 20, 50, 20)
+  ) +
+  labs(
+    x = "",
+    y = "",
+    title = ""
+  )
+```
+:::
+
+:::{#cr-sidebar}
+:::
+
+Luego viene el PRO, bloque que renueva 6 de sus 12 bancas actuales. @cr-distribucion_bancas_actual_2025v2_pro
+
+::::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-distribucion_bancas_actual_2025v2_lla}
+```{r distribucion_bancas_actual_2025v2_lla}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig.width: 12
+#| fig.height: 8
+
+# Crear el dataframe con los datos y ordenarlo por bancas
+datos <- data.frame(
+  partido = factor(c(
+    "Unión por la Patria",
+    "Vamos por más",
+    "La Libertad avanza",
+    "UCR / Evolución",
+    "Otros",
+    "Izquierda Socialista-Frente de Izquierda-Unidad",
+    "Confianza Pública",
+    "Frente de Izquierda de los Trabajadores / PO",
+    "Partido Socialista",
+    "Republicanos Unidos"
+  )),
+  bancas = c(8, 6, 4, 3, 2, 1, 1, 1, 1, 1)
+)
+
+# Ordenar el dataframe por bancas
+datos <- datos[order(-datos$bancas), ]
+
+# Reordenar los niveles del factor partido según el orden de bancas
+datos$partido <- factor(datos$partido, levels = datos$partido)
+
+# Definir los colores específicos para cada partido en el mismo orden que el gráfico anterior
+colores <- c(
+  "#8f8f8f",  # Unión por la Patria
+  "#8f8f8f",  # Vamos por más
+  "#9e52d0",  # La Libertad avanza
+  "#8f8f8f",  # UCR / Evolución
+  "#8f8f8f",  # Otros
+  "#8f8f8f",  # Izquierda Socialista
+  "#8f8f8f",  # Confianza Pública
+  "#8f8f8f",  # Frente de Izquierda
+  "#8f8f8f",  # Partido Socialista
+  "#8f8f8f"   # Republicanos Unidos
+)
+
+# Crear el gráfico
+ggplot(datos, aes(x = partido, y = bancas, fill = partido)) +
+  geom_bar(stat = "identity", width = 0.7) +
+  geom_text(aes(label = bancas), vjust = -0.5, size = 4) +
+  scale_fill_manual(values = colores) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
+    axis.text.y = element_blank(),
+    axis.title.y = element_blank(),
+    plot.title = element_text(size = 16, face = "bold"),
+    panel.grid = element_blank(),
+    panel.background = element_rect(fill = "white", color = NA),
+    plot.background = element_rect(fill = "white", color = NA),
+    legend.position = "none",
+    plot.margin = margin(30, 20, 50, 20)
+  ) +
+  labs(
+    x = "",
+    y = "",
+    title = ""
+  )
+```
+:::
+
+:::{#cr-sidebar}
+:::
+
+Mientras que La Libertad Avanza renueva la mitad de sus bancas también, es decir 4. <br><br>A esto se suma la renovación de bancas como las de Ramiro Marra (quien ahora se presenta en una lista por fuerta de LLA) y Jorge Reta, los cuales son libertarios afines y concluyen su mandato en 2025. @cr-distribucion_bancas_actual_2025v2_lla
+
+::::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-distribucion_bancas_actual_2025v2_ucr}
+```{r distribucion_bancas_actual_2025v2_ucr}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig.width: 12
+#| fig.height: 8
+
+# Crear el dataframe con los datos y ordenarlo por bancas
+datos <- data.frame(
+  partido = factor(c(
+    "Unión por la Patria",
+    "Vamos por más",
+    "La Libertad avanza",
+    "UCR / Evolución",
+    "Otros",
+    "Izquierda Socialista-Frente de Izquierda-Unidad",
+    "Confianza Pública",
+    "Frente de Izquierda de los Trabajadores / PO",
+    "Partido Socialista",
+    "Republicanos Unidos"
+  )),
+  bancas = c(8, 6, 4, 3, 2, 1, 1, 1, 1, 1)
+)
+
+# Ordenar el dataframe por bancas
+datos <- datos[order(-datos$bancas), ]
+
+# Reordenar los niveles del factor partido según el orden de bancas
+datos$partido <- factor(datos$partido, levels = datos$partido)
+
+# Definir los colores específicos para cada partido en el mismo orden que el gráfico anterior
+colores <- c(
+  "#8f8f8f",  # Unión por la Patria
+  "#8f8f8f",  # Vamos por más
+  "#8f8f8f",  # La Libertad avanza
+  "#ff0000",  # UCR / Evolución
+  "#8f8f8f",  # Otros
+  "#8f8f8f",  # Izquierda Socialista
+  "#8f8f8f",  # Confianza Pública
+  "#8f8f8f",  # Frente de Izquierda
+  "#8f8f8f",  # Partido Socialista
+  "#8f8f8f"   # Republicanos Unidos
+)
+
+# Crear el gráfico
+ggplot(datos, aes(x = partido, y = bancas, fill = partido)) +
+  geom_bar(stat = "identity", width = 0.7) +
+  geom_text(aes(label = bancas), vjust = -0.5, size = 4) +
+  scale_fill_manual(values = colores) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
+    axis.text.y = element_blank(),
+    axis.title.y = element_blank(),
+    plot.title = element_text(size = 16, face = "bold"),
+    panel.grid = element_blank(),
+    panel.background = element_rect(fill = "white", color = NA),
+    plot.background = element_rect(fill = "white", color = NA),
+    legend.position = "none",
+    plot.margin = margin(30, 20, 50, 20)
+  ) +
+  labs(
+    x = "",
+    y = "",
+    title = ""
+  )
+```
+:::
+
+:::{#cr-sidebar}
+:::
+
+Por último, la UCR, que en 2023 fue a internas con el PRO en las PASO y ahora se presenta en una lista aparte como Evolución, renueva 3 de sus 8 bancas en la legislatura porteña. @cr-distribucion_bancas_actual_2025v2_ucr
+
+::::
+
+
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-cambios2023}
+![](fractura_jxc (1).png){width=100%}
+:::
+
+:::{#cr-sidebar}
+:::
+
+
+<span style="font-size: 48pt;">Principales cambios<br>respecto a 2023</span> @cr-cambios2023
+
+La ruptura de la alianza Juntos por el Cambio sumado a la eliminación de las PASO son los principales aspectos a tener en cuenta. @cr-cambios2023
 
 :::
 
@@ -210,20 +697,20 @@ La ruptura de la alianza Juntos por el Cambio sumado a la eliminación de las PA
 
 :::{#cr-nuevosjxc2025}
 <div style="display: inline-block; text-align: center; width: 20%;">
-  <img src="17candidatos/Silvia%20Lospennato.png" style="margin-left: 20px; width: 100%;">
-  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+  <img src="17candidatos/Silvia%20Lospennato.png" style="margin-left: 65px; width: 100%;">
+  
 </div>
 <div style="display: inline-block; text-align: center; width: 20%;">
-  <img src="17candidatos/Horacio%20Rodríguez%20Larreta.png" style="margin-left: 20px;width: 100%;">
-  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+  <img src="17candidatos/Horacio%20Rodríguez%20Larreta.png" style="margin-left: 65px;width: 100%;">
+  
 </div>
 <div style="display: inline-block; text-align: center; width: 20%;">
-  <img src="17candidatos/Lucille%20Levy.png" style="margin-left: 20px;width: 100%;">
-  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+  <img src="17candidatos/Lucille%20Levy.png" style="margin-left: 65px;width: 100%;">
+  
 </div>
 <div style="display: inline-block; text-align: center; width: 20%;">
-  <img src="17candidatos/Paula%20Oliveto%20Lago.png" style="margin-left: 20px;width: 100%;">
-  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+  <img src="17candidatos/Paula%20Oliveto%20Lago.png" style="margin-left: 65px;width: 100%;">
+  
 </div>
 :::
 
@@ -233,7 +720,7 @@ La ruptura de la alianza Juntos por el Cambio sumado a la eliminación de las PA
 Esta separación supuso que ahora en 2025 surjan 4 alianzas <br> que antes unía ese espacio: @cr-nuevosjxc2025
 
 
-Buenos Aires Primero (PRO) <br> Volvamos Juntos (Larreta) <br> Evolución (UCR) <br> Coalición Cívica (CC-ARI) @cr-nuevosjxc2025
+• Buenos Aires Primero (PRO)<br>• Volvamos Juntos (Larreta)<br>• Evolución (UCR)<br>• Coalición Cívica (CC-ARI) @cr-nuevosjxc2025
 
 El otro gran cambio es que al no haber PASO, ahora en las elecciones Generales hay... @cr-nuevosjxc2025
 
@@ -243,28 +730,28 @@ El otro gran cambio es que al no haber PASO, ahora en las elecciones Generales h
 
 :::{#cr-nuevoscandidatos1}
 <div style="display: inline-block; text-align: center; width: 20%;">
-  <img src="17candidatos/Silvia%20Lospennato.png" style="margin-left: 20px; width: 100%;">
-  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
-  <img src="17candidatos/Leandro%20Santoro.png" style="margin-left: 20px; margin-top: 20px; width: 100%;">
-  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+  <img src="17candidatos/Silvia%20Lospennato.png" style="margin-left: 65px; width: 100%;">
+  
+  <img src="17candidatos/Leandro%20Santoro.png" style="margin-left: 65px; margin-top: 10px; width: 100%;">
+  
 </div>
 <div style="display: inline-block; text-align: center; width: 20%;">
-  <img src="17candidatos/Horacio%20Rodríguez%20Larreta.png" style="margin-left: 20px;width: 100%;">
-  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
-  <img src="17candidatos/Manuel%20Adorni.png" style="margin-left: 20px;margin-top: 20px; width: 100%;">
-  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+  <img src="17candidatos/Horacio%20Rodríguez%20Larreta.png" style="margin-left: 65px;width: 100%;">
+  
+  <img src="17candidatos/Manuel%20Adorni.png" style="margin-left: 65px;margin-top: 10px; width: 100%;">
+  
 </div>
 <div style="display: inline-block; text-align: center; width: 20%;">
-  <img src="17candidatos/Lucille%20Levy.png" style="margin-left: 20px;width: 100%;">
-  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
-  <img src="17candidatos/Ramiro%20Marra%C2%A0.png" style="margin-left: 20px;margin-top: 20px; width: 100%;">
-  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+  <img src="17candidatos/Lucille%20Levy.png" style="margin-left: 65px;width: 100%;">
+  
+  <img src="17candidatos/Ramiro%20Marra%C2%A0.png" style="margin-left: 65px;margin-top: 10px; width: 100%;">
+  
 </div>
 <div style="display: inline-block; text-align: center; width: 20%;">
-  <img src="17candidatos/Paula%20Oliveto%20Lago.png" style="margin-left: 20px;width: 100%;">
-  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
-  <img src="17candidatos/Vanina%20Biasi.png" style="margin-left: 20px;margin-top: 20px; width: 100%;">
-  <p style="margin-top: 10px; font-size: 16pt;">XXXXXX</p>
+  <img src="17candidatos/Paula%20Oliveto%20Lago.png" style="margin-left: 65px;width: 100%;">
+  
+  <img src="17candidatos/Vanina%20Biasi.png" style="margin-left: 65px;margin-top: 10px; width: 100%;">
+  
 </div>
 :::
 
@@ -278,10 +765,37 @@ más... @cr-nuevoscandidatos1
 :::{.cr-section layout="sidebar-left"}
 
 :::{#cr-nuevoscandidatos2}
-![](17candidatos/Alejandro%20Kim.png){width=100%}
-![](17candidatos/Yamil%20Santoro.png){width=100%}
-![](17candidatos/Mila%20Zurbriggen.png){width=100%}
-![](17candidatos/Federico%20Winokur.png){width=100%}
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Silvia%20Lospennato.png" style="margin-left: 65px; width: 100%;">
+  
+  <img src="17candidatos/Leandro%20Santoro.png" style="margin-left: 65px; margin-top: 10px; width: 100%;">
+  
+  <img src="17candidatos/Alejandro%20Kim.png" style="margin-left: 65px; margin-top: 10px; width: 100%;">
+</div>
+
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Horacio%20Rodríguez%20Larreta.png" style="margin-left: 65px;width: 100%;">
+  
+  <img src="17candidatos/Manuel%20Adorni.png" style="margin-left: 65px;margin-top: 10px; width: 100%;">
+  
+  <img src="17candidatos/Yamil%20Santoro.png" style="margin-left: 65px;margin-top: 10px; width: 100%;">
+</div>
+
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Lucille%20Levy.png" style="margin-left: 65px;width: 100%;">
+  
+  <img src="17candidatos/Ramiro%20Marra%C2%A0.png" style="margin-left: 65px;margin-top: 10px; width: 100%;">
+  
+  <img src="17candidatos/Mila%20Zurbriggen.png" style="margin-left: 65px;margin-top: 10px; width: 100%;">
+</div>
+
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Paula%20Oliveto%20Lago.png" style="margin-left: 65px;width: 100%;">
+  
+  <img src="17candidatos/Vanina%20Biasi.png" style="margin-left: 65px;margin-top: 10px; width: 100%;">
+  
+  <img src="17candidatos/Federico%20Winokur.png" style="margin-left: 65px;margin-top: 10px; width: 100%;">
+</div>
 :::
 
 :::{#cr-sidebar}
@@ -294,10 +808,45 @@ más... @cr-nuevoscandidatos2
 :::{.cr-section layout="sidebar-left"}
 
 :::{#cr-nuevoscandidatos3}
-![](17candidatos/Juan%20Manuel%20Abal%20Medina.png){width=100%}
-![](17candidatos/C%C3%A9sar%20Biondini.png){width=100%}
-![](17candidatos/Marcelo%20Peretta.png){width=100%}
-![](17candidatos/Mar%C3%ADa%20Eva%20Koutsovitis.png){width=100%}
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Silvia%20Lospennato.png" style="margin-left: 65px; width: 100%;">
+  
+  <img src="17candidatos/Leandro%20Santoro.png" style="margin-left: 65px; margin-top: 10px; width: 100%;">
+  
+  <img src="17candidatos/Alejandro%20Kim.png" style="margin-left: 65px; margin-top: 10px; width: 100%;">
+  
+  <img src="17candidatos/Juan%20Manuel%20Abal%20Medina.png" style="margin-left: 65px; margin-top: 10px; width: 100%;">
+</div>
+
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Horacio%20Rodríguez%20Larreta.png" style="margin-left: 65px;width: 100%;">
+  
+  <img src="17candidatos/Manuel%20Adorni.png" style="margin-left: 65px;margin-top: 10px; width: 100%;">
+  
+  <img src="17candidatos/Yamil%20Santoro.png" style="margin-left: 65px;margin-top: 10px; width: 100%;">
+  
+  <img src="17candidatos/César%20Biondini.png" style="margin-left: 65px;margin-top: 10px; width: 100%;">
+</div>
+
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Lucille%20Levy.png" style="margin-left: 65px;width: 100%;">
+  
+  <img src="17candidatos/Ramiro%20Marra%C2%A0.png" style="margin-left: 65px;margin-top: 10px; width: 100%;">
+  
+  <img src="17candidatos/Mila%20Zurbriggen.png" style="margin-left: 65px;margin-top: 10px; width: 100%;">
+  
+  <img src="17candidatos/Marcelo%20Peretta.png" style="margin-left: 65px;margin-top: 10px; width: 100%;">
+</div>
+
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Paula%20Oliveto%20Lago.png" style="margin-left: 65px;width: 100%;">
+  
+  <img src="17candidatos/Vanina%20Biasi.png" style="margin-left: 65px;margin-top: 10px; width: 100%;">
+  
+  <img src="17candidatos/Federico%20Winokur.png" style="margin-left: 65px;margin-top: 10px; width: 100%;">
+  
+  <img src="17candidatos/María%20Eva%20Koutsovitis.png" style="margin-left: 65px;margin-top: 10px; width: 100%;">
+</div>
 :::
 
 :::{#cr-sidebar}
@@ -310,10 +859,11 @@ más... @cr-nuevoscandidatos3
 :::{.cr-section layout="sidebar-left"}
 
 :::{#cr-nuevoscandidatos4}
-![](17candidatos/Juan%20Manuel%20Abal%20Medina.png){width=100%}
-![](17candidatos/C%C3%A9sar%20Biondini.png){width=100%}
-![](17candidatos/Marcelo%20Peretta.png){width=100%}
-![](17candidatos/Mar%C3%ADa%20Eva%20Koutsovitis.png){width=100%}
+<div style="display: inline-block; text-align: center; width: 20%;">
+
+  <img src="17candidatos/Ricardo%20Caruso%20Lombardi.png" style="margin-left: 65px; margin-top: 0px; width: 100%;">
+</div>
+
 :::
 
 :::{#cr-sidebar}
@@ -322,3 +872,111 @@ más... @cr-nuevoscandidatos3
 y más candidatos. @cr-nuevoscandidatos4
 
 :::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-guia}
+![](pregunta.png){width=100%}
+:::
+
+:::{#cr-sidebar}
+:::
+
+<span style="font-size: 48pt;">¿Quién es quién?</span><br><br>Al haber 17 alianzas es fácil perderse. @cr-guia
+
+Los principales aspectos a tener en cuenta son: @cr-guia
+
+:::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-aspecto_pro}
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Silvia%20Lospennato.png" style="margin-left: 65px; width: 100%;">
+  
+</div>
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Horacio%20Rodríguez%20Larreta.png" style="margin-left: 65px;width: 100%;">
+  
+</div>
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Lucille%20Levy.png" style="margin-left: 65px;width: 100%;">
+  
+</div>
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Paula%20Oliveto%20Lago.png" style="margin-left: 65px;width: 100%;">
+  
+</div>
+:::
+
+:::{#cr-sidebar}
+:::
+
+Lo que antes era Juntos por el Cambio ahora va en 4 listas distintas:<br><br>• Buenos Aires Primero (PRO)<br>• Volvamos Juntos (Larreta)<br>• Evolución (UCR)<br>• Coalición Cívica (CC-ARI) @cr-aspecto_pro
+
+:::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-aspecto_peronismo}
+<div style="display: inline-block; text-align: center; width: 20%;">
+</div>
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Leandro%20Santoro.png" style="margin-left: 65px; width: 100%;">
+  
+</div>
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Alejandro%20Kim.png" style="margin-left: 65px;width: 100%;">
+  
+</div>
+<div style="display: inline-block; text-align: center; width: 20%;">
+</div>
+:::
+
+:::{#cr-sidebar}
+:::
+
+En el peronismo los principales representates son las listas de:<br><br>• Leandro Santoro (Es Ahora Buenos Aires)<br><br>• Alejandro Kim (Principios y Valores, la cual representa a Guillermo Moreno) @cr-aspecto_peronismo
+
+:::
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-aspecto_libertarios}
+
+<div style="display: inline-block; text-align: center; width: 20%;">
+</div>
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Manuel%20Adorni.png" style="margin-left: 65px; width: 100%;">
+  
+</div>
+<div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Ramiro%20Marra%C2%A0.png" style="margin-left: 65px;width: 100%;">
+  
+</div>
+
+<div style="display: inline-block; text-align: center; width: 20%;">
+</div>
+:::
+
+:::{#cr-sidebar}
+:::
+
+Al ser Ramiro Marra echado de La Libertad Avanza los libertarios ahora se presentan en dos listas distintas, encabezadas por:<br><br>• Manuel Adorni (La Libertad Avanza)<br><br>• Ramiro Marra (Libertad y Orden) @cr-aspecto_libertarios
+
+:::
+
+
+
+:::{.cr-section layout="sidebar-left"}
+
+:::{#cr-guia2}
+![](simuladorbancas.gif){width=100%}
+:::
+
+:::{#cr-sidebar}
+:::
+
+Si querés informarte al respecto recomendamos ir a la sección de **"Candidatos"** y **"Propuestas"** donde podrás ver las listas completas y las principales propuestas de cada alianza. @cr-guia2
+:::
+
