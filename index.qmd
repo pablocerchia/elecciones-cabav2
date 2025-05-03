@@ -141,6 +141,8 @@ El mandato de estos 30 legisladores durará 4 años.<br><br> Ellos se encargaran
 
 Un dispositivo con pantalla táctil te va a mostrar las listas oficializadas para que selecciones la de tu preferencia y se imprima tu boleta única. @cr-comosevota
 
+Simulá cómo votar con la Boleta Única Electrónica con este simulador desarrollado por el GCBA: <a href="https://simuladorcapacitacion.votar.com.ar/">Ver simulador</a>. @cr-comosevota
+
 :::
 
 :::{.cr-section}
@@ -717,7 +719,7 @@ La ruptura de la alianza Juntos por el Cambio sumado a la eliminación de las PA
 :::{#cr-sidebar}
 :::
 
-Esta separación supuso que ahora en 2025 surjan 4 alianzas <br> que antes unía ese espacio: @cr-nuevosjxc2025
+Esta separación supuso que ahora en 2025 surjan 4 listas <br> que antes unía ese espacio: @cr-nuevosjxc2025
 
 
 • Buenos Aires Primero (PRO)<br>• Volvamos Juntos (Larreta)<br>• Evolución (UCR)<br>• Coalición Cívica (CC-ARI) @cr-nuevosjxc2025
@@ -882,7 +884,7 @@ y más candidatos. @cr-nuevoscandidatos4
 :::{#cr-sidebar}
 :::
 
-<span style="font-size: 48pt;">¿Quién es quién?</span><br><br>Al haber 17 alianzas es fácil perderse. @cr-guia
+<span style="font-size: 48pt;">¿Quién es quién?</span><br><br>Al haber 17 listas es fácil perderse. @cr-guia
 
 Los principales aspectos a tener en cuenta son: @cr-guia
 
@@ -930,13 +932,14 @@ Lo que antes era Juntos por el Cambio ahora va en 4 listas distintas:<br><br>•
   
 </div>
 <div style="display: inline-block; text-align: center; width: 20%;">
+  <img src="17candidatos/Juan%20Manuel%20Abal%20Medina.png" style="margin-left: 65px;width: 100%;">
 </div>
 :::
 
 :::{#cr-sidebar}
 :::
 
-En el peronismo los principales representates son las listas de:<br><br>• Leandro Santoro (Es Ahora Buenos Aires)<br><br>• Alejandro Kim (Principios y Valores, la cual representa a Guillermo Moreno) @cr-aspecto_peronismo
+En el peronismo los principales representates son las listas de:<br><br>• Leandro Santoro (Es Ahora Buenos Aires)<br><br>• Alejandro Kim (Principios y Valores, la cual representa a Guillermo Moreno)<br><br>• Juan Manuel Abal Medina (Seamos Libres) @cr-aspecto_peronismo
 
 :::
 
@@ -977,6 +980,6 @@ Al ser Ramiro Marra echado de La Libertad Avanza los libertarios ahora se presen
 :::{#cr-sidebar}
 :::
 
-Si querés informarte al respecto recomendamos ir a la sección de **"Candidatos"** y **"Propuestas"** donde podrás ver las listas completas y las principales propuestas de cada alianza. @cr-guia2
+Si querés informarte al respecto recomendamos ir a la sección de **"Candidatos"** y **"Propuestas"** donde podrás ver las listas completas y las principales propuestas de cada lista. @cr-guia2
 :::
 
