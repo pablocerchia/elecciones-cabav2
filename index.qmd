@@ -13,6 +13,8 @@ format:
       narrative-font-size-sidebar: 36pt
       narrative-font-size-overlay: 36pt
       narrative-overlay-max-width: "800px"
+execute:
+  warning: false
 ---
 
 ```{r packages}
