@@ -77,7 +77,7 @@ En las elecciones legislativas de CABA 2025 se <span style="color: #8d4961;">ren
 :::{#cr-sidebar}
 :::
 
-El mandato de estos 30 legisladores durará 4 años.<br><br> Ellos se encargaran de sancionar leyes sobre los asuntos como  educación, salud, ambiente, obras públicas, diseño urbano y seguridad de la Ciudad. @cr-4anos
+El mandato de estos 30 legisladores durará 4 años. @cr-4anos
 
 
 :::
@@ -108,22 +108,22 @@ El mandato de estos 30 legisladores durará 4 años.<br><br> Ellos se encargaran
 :::
 
 
-<span style="font-size: 48pt;">¿Dónde se vota?</span><br><br>Consultá en el sitio del Tribunal Electoral de CABA haciendo click <a href="https://electoralcaba.gob.ar/">aquí</a>. @cr-dondevota
+<span style="font-size: 48pt;">¿Dónde se vota?</span><br><br>Consultá en el sitio del Tribunal Electoral de CABA, dependiendo si sos <a href="https://caba.padron.gov.ar/">argentino</a> o  <a href="https://dondevotociudad.gob.ar/ ">extranjero</a>. @cr-dondevota
 
 :::
 
 :::{.cr-section layout="sidebar-left"}
 
 :::{#cr-quienvota}
-![](dnivotojoven (1).png){width=100%}
+![](dni_valido_votar.jpeg){width=100%}
 :::
 
 :::{#cr-sidebar}
 :::
 
-<span style="font-size: 42pt;">¿Quién puede votar?</span><br><br>Podés votar si cumplís con los siguientes requisitos: @cr-quienvota
+<span style="font-size: 42pt;">¿Quién puede votar?</span><br><br>Vas a poder votar si cumplís con los siguientes requisitos: @cr-quienvota
 
-◇ Sos argentino/a o extranjero/a con residencia permanente.<br>◇ Sos mayor de 16 años (y haber renovado el DNI a los 14 años).<br>◇ Figuras en el padrón electoral.<br>◇ Tenés el DNI que figura en el padrón electoral para mostrarlo al momento de votar. @cr-quienvota
+◇ Sos argentino/a o extranjero/a con residencia permanente.<br>◇ Sos mayor de 16 años (y ya renovaste el DNI a los 14 años).<br>◇ Figuras en el <a href="https://caba.padron.gov.ar/">padrón electoral.</a><br>◇ Tenés el DNI que figura en el padrón electoral para mostrarlo al momento de votar. @cr-quienvota
 
 :::
 
@@ -137,11 +137,11 @@ El mandato de estos 30 legisladores durará 4 años.<br><br> Ellos se encargaran
 :::{#cr-sidebar}
 :::
 
-<span style="font-size: 48pt;">¿Cómo se vota?</span><br><br>Con Boleta única electrónica. @cr-comosevota
+<span style="font-size: 48pt;">¿Cómo se vota?</span><br><br>Con Boleta única electrónica (BUE). @cr-comosevota
 
-Un dispositivo con pantalla táctil te va a mostrar las listas oficializadas para que selecciones la de tu preferencia y se imprima tu boleta única. @cr-comosevota
+La BUE combina tecnología digital con soporte en papel, permitiendo a los votantes seleccionar sus opciones mediante una pantalla táctil y obtener una boleta impresa con su elección. @cr-comosevota
 
-Simulá cómo votar con la Boleta Única Electrónica con este simulador desarrollado por el GCBA: <a href="https://simuladorcapacitacion.votar.com.ar/">Ver simulador</a>. @cr-comosevota
+Simulá cómo votar con la Boleta Única Electrónica con este <a href="https://simuladorcapacitacion.votar.com.ar/">simulador desarrollado por el GCBA</a>. @cr-comosevota
 
 :::
 
@@ -162,7 +162,7 @@ Simulá cómo votar con la Boleta Única Electrónica con este simulador desarro
 :::{.cr-section layout="sidebar-left"}
 
 :::{#cr-dhondtsimulador}
-![](simuladorbancas.gif){width=100%}
+![](gif_simuladorbancasfinal.gif){width=100%}
 :::
 
 :::{#cr-sidebar}
@@ -878,7 +878,7 @@ y más candidatos. @cr-nuevoscandidatos4
 :::{.cr-section layout="sidebar-left"}
 
 :::{#cr-guia}
-![](pregunta.png){width=100%}
+![](signos_interrogacion.jpg){width=100%}
 :::
 
 :::{#cr-sidebar}
@@ -974,12 +974,12 @@ Al ser Ramiro Marra echado de La Libertad Avanza los libertarios ahora se presen
 :::{.cr-section layout="sidebar-left"}
 
 :::{#cr-guia2}
-![](simuladorbancas.gif){width=100%}
+![](gif_candpropfinal.gif){width=100%}
 :::
 
 :::{#cr-sidebar}
 :::
 
-Si querés informarte al respecto recomendamos ir a la sección de **"Candidatos"** y **"Propuestas"** donde podrás ver las listas completas y las principales propuestas de cada lista. @cr-guia2
+Si querés informarte al respecto recomendamos ir a la sección de **"Candidatos"** y **"Propuestas"** donde podrás ver las listas completas y las principales propuestas de cada una. @cr-guia2
 :::
 
